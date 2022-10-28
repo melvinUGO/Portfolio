@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Caveat;
+  src: url(./assets/Caveat-VariableFont_wght.ttf);
+}
+
+body {
+  background: linear-gradient(-45deg, #0d0d0d, #333333, #595959, #808080);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
+
+p {
+  letter-spacing: 0.2rem;
+}
+
+.myFont {
+  font-family: Caveat;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
