@@ -1,15 +1,15 @@
 import React from "react";
-import Contact from "./Contact";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const Works = () => {
   return (
-    <div className="flex flex-col-reverse lg:grid grid-cols-2">
-      <section>
-        <Contact />
+    <div className="bg-black h-[100vh] relative">
+      <Header />
+      <section className=" text-center">
+        <h1 className="text-white">PORTFOLIO SAMPLES</h1>
       </section>
-      <section className="bg-black h-[100vh]">
-        <p className="text-center pt-10">PORTFOLIO SAMPLES</p>
-      </section>
+      <Footer />
     </div>
   );
 };

@@ -7,17 +7,27 @@
   src: url(./assets/Caveat-VariableFont_wght.ttf);
 }
 
-body {
-  background: linear-gradient(-45deg, #0d0d0d, #333333, #595959, #808080);
+/* body {
+  background: linear-gradient(-45deg, #0d0d0d, #333333, #4f4e4e, #5e5e5e);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   height: 100vh;
   color: white;
   font-family: sans-serif;
+} */
+body {
+  background: black;
+}
+
+.image {
+  background-image: url(/images/matrix.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 p {
   letter-spacing: 0.2rem;
+  color: white;
 }
 
 .myFont {
