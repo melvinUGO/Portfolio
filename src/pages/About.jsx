@@ -19,7 +19,7 @@ const About = () => {
           i have one year of experience using various front end and backend
           technologies{" "}
         </p>
-        <h3 className="py-3">My Skills:</h3>
+        <h3 className="py-3 text-white">My Skills:</h3>
         <section className="flex flex-wrap md:w-[50%]">
           <div className="m-2">
             <img src="images/html.svg" alt="css" className="w-[50px]" />
