@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Works from "./pages/Works";
+import Projects from "./pages/Projects";
 import About from "./pages/About";
 import ContactPage from "./pages/ContactPage";
 
@@ -10,8 +10,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Works />} />
+          <Route path="/" exact element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<About />} />
         </Routes>
