@@ -36,7 +36,7 @@ const Home = () => {
         >
           MELVIN UGOCHUKWU
         </h1>
-        <p className="pb-5 font-mono">SOFTWARE DEVELOPER</p>
+        <p className="pb-5 font-mono">JUNIOR SOFTWARE DEVELOPER</p>
         <div className="flex items-center justify-center flex-col gap-3">
           <Link
             to="/projects"

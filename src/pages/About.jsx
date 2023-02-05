@@ -4,13 +4,13 @@ import Header from "../components/Header";
 
 const About = () => {
   return (
-    <div className="">
+    <div className="text-gray-300 h-[100vh]">
       <Header />
       <div className="px-5 pb-10">
-        <h1 className="text-white text-lg ">
+        <h1 className="text-white text-lg tracking-wider">
           <b>ABOUT ME</b>
         </h1>
-        <p className="py-3">
+        <p className="py-3 text-gray-300">
           Hello, my name is Melvin, im a software developer from West Africa{" "}
           <br /> with a degree in Business Administration.
         </p>
@@ -19,53 +19,42 @@ const About = () => {
           i have one year of experience using various front end and backend
           technologies{" "}
         </p>
-        <h3 className="py-3 text-white">My Skills:</h3>
-        <section className="flex flex-wrap md:w-[50%]">
-          <div className="m-2">
-            <img src="images/html.svg" alt="css" className="w-[50px]" />
-            {/* <p>HTML</p> */}
+        <h3 className="py-3 text-white">My Languages:</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>Java</li>
+        </ul>
+
+        <div className="mt-5">
+          <h3 className=" text-white">Technologies:</h3>
+          <div className="md:flex flex-wrap justify-evenly">
+            <section className="px-3">
+              <h3 className="py-3 text-white">Frontend:</h3>
+              <ul>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </section>
+            <section className="px-3">
+              <h3 className="py-3 text-white">Backend:</h3>
+              <ul>
+                <li>NodeJs/Express</li>
+                <li>MongoDb</li>
+                <li>Spring Boot</li>
+                <li>FireBase</li>
+              </ul>
+            </section>
+            <section className="px-3">
+              <h3 className="py-3 text-white">Version Control:</h3>
+              <ul>
+                <li>Git</li>
+                <li>Git Hub</li>
+              </ul>
+            </section>
           </div>
-          <div className="m-2">
-            <img src="images/css.svg" alt="css" className="w-[50px]" />
-            {/* <p>CSS</p> */}
-          </div>
-          <div className="m-2 text-center">
-            <img src="images/javascript.svg" alt="css" className="w-[50px]" />
-            {/* <p className="">JavaScript</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images/react.svg" alt="css" className="w-[50px]" />
-            {/* <p>React</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images/tailwind.svg" alt="css" className="w-[50px]" />
-            {/* <p>Tailwind</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images/redux.svg" alt="css" className="w-[50px]" />
-            {/* <p>Redux</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images/firebase.svg" alt="css" className="w-[50px]" />
-            {/* <p>Firebase</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images/git.svg" alt="css" className="w-[50px]" />
-            {/* <p>Git</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images/github.svg" alt="css" className="w-[50px]" />
-            {/* <p>Git Hub</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images\java.svg" alt="css" className="w-[50px]" />
-            {/* <p>Java</p> */}
-          </div>
-          <div className="m-2">
-            <img src="images\springboot.svg" alt="css" className="w-[50px]" />
-            {/* <p>Springboot</p> */}
-          </div>
-        </section>
+        </div>
       </div>
       <Footer />
     </div>
