@@ -19,17 +19,17 @@ const About = () => {
           i have one year of experience using various front end and backend
           technologies{" "}
         </p>
-        <h3 className="py-3 text-white">My Languages:</h3>
+        <h3 className="py-3 text-white tracking-wider">My Languages:</h3>
         <ul>
           <li>JavaScript</li>
           <li>Java</li>
         </ul>
 
         <div className="mt-5">
-          <h3 className=" text-white">Technologies:</h3>
+          <h3 className=" text-white tracking-wider">Technologies:</h3>
           <div className="md:flex flex-wrap justify-evenly">
             <section className="px-3">
-              <h3 className="py-3 text-white">Frontend:</h3>
+              <h3 className="pt-3 text-white tracking-wider">Frontend:</h3>
               <ul>
                 <li>Html</li>
                 <li>CSS</li>
@@ -38,7 +38,7 @@ const About = () => {
               </ul>
             </section>
             <section className="px-3">
-              <h3 className="py-3 text-white">Backend:</h3>
+              <h3 className="pt-3 text-white tracking-wider">Backend:</h3>
               <ul>
                 <li>NodeJs/Express</li>
                 <li>MongoDb</li>
@@ -47,7 +47,9 @@ const About = () => {
               </ul>
             </section>
             <section className="px-3">
-              <h3 className="py-3 text-white">Version Control:</h3>
+              <h3 className="pt-3 text-white tracking-wider">
+                Version Control:
+              </h3>
               <ul>
                 <li>Git</li>
                 <li>Git Hub</li>
