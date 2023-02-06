@@ -15,12 +15,12 @@ const Projects = () => {
             const { name, image, url, discription, gitHub } = item;
             return (
               <div className="flex flex-col justify-center items-center my-5">
-                <div className="rounded-xl group relative w-[80%] flex">
+                <div className="rounded-xl group relative w-[85%] sm:w-[70%] flex">
                   <img
                     loading="lazy"
                     src={image}
                     alt={name}
-                    className="w-full h-auto object-cover rounded-xl"
+                    className="w-full h-auto object-cover rounded-t-2xl rounded-b-lg"
                   />
                   <div className="hidden group-hover:flex flex-col max-h-[94.5%] absolute bottom-0 left-0 right-0 bg-[#10131f] m-2 p-2 rounded-md overflow-y-auto scrollbar-hide">
                     <p className="text-[1.2rem] mb-1 text-green-600 font-bold">
@@ -29,17 +29,17 @@ const Projects = () => {
                     <sm className="text-white py-1">{discription}</sm>
                   </div>
                 </div>
-                <div className="flex text-white">
+                <div className="flex text-white mt-1   w-[85%] sm:w-[70%]">
                   <a
                     href={url}
-                    className="border-2  p-2 flex items-center gap-2 "
+                    className="border-2 p-2 flex justify-center items-center gap-2 w-full rounded-tl-lg rounded-bl-2xl hover:text-green-600"
                     target="_blank"
                   >
                     <FaGlobe /> Live Site
                   </a>
                   <a
                     href={gitHub}
-                    className="border-2  p-2 flex items-center gap-2"
+                    className="border-2 p-2 flex justify-center items-center gap-2 w-full rounded-tr-lg rounded-br-2xl hover:text-green-600"
                     target="_blank"
                   >
                     <FaGithub />
